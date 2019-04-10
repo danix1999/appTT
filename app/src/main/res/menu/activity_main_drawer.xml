@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/opcion1"
+            android:icon="@drawable/persona"
+            android:title="Datos Personales" />
+        <item
+            android:id="@+id/opcion2"
+            android:icon="@android:drawable/btn_star"
+            android:title="Experiencias" />
+        <item
+            android:id="@+id/opcion3"
+            android:icon="@android:"
+            android:title="Referencias" />
+        <item
+            android:id="@+id/opcion4"
+            android:icon="@android:"
+            android:title="Tools" />
+    </group>
+
+
+</menu>
